@@ -4,13 +4,13 @@ document.addEventListener("DOMContentLoaded", function () {
     
     // No button shakes and spawns evil faces when hovered
     noButton.addEventListener('mouseenter', function () {
-        noButton.classList.add('shake');
+        noButton.classList.add('teleport');
         generateEvilFaces();
     });
     
     // No button stops shaking when the mouse leaves
     noButton.addEventListener('mouseleave', function () {
-        noButton.classList.remove('shake');
+        noButton.classList.remove('teleport');
     });
 
     // Yes button triggers confetti and music
